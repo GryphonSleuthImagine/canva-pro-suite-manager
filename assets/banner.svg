@@ -1,0 +1,81 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0e2e"/>
+      <stop offset="55%" stop-color="#241246"/>
+      <stop offset="100%" stop-color="#150a28"/>
+    </linearGradient>
+    <linearGradient id="swatch1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="swatch2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="swatch3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C084FC" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#C084FC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="crownGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD873"/>
+      <stop offset="100%" stop-color="#F5A623"/>
+    </linearGradient>
+    <linearGradient id="titleFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#E9D8FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+
+  <circle cx="960" cy="140" r="220" fill="url(#glow)"/>
+  <circle cx="1080" cy="260" r="150" fill="url(#glow)"/>
+
+  <g opacity="0.12" stroke="#B794F4" stroke-width="1">
+    <line x1="60" y1="40" x2="60" y2="320"/>
+    <line x1="180" y1="40" x2="180" y2="320"/>
+    <line x1="300" y1="40" x2="300" y2="320"/>
+    <line x1="60" y1="40" x2="1140" y2="40"/>
+    <line x1="60" y1="320" x2="1140" y2="320"/>
+  </g>
+
+  <g transform="translate(710,60)">
+    <rect x="0" y="70" width="150" height="150" rx="18" fill="url(#swatch1)" opacity="0.92" transform="rotate(-8 75 145)"/>
+    <rect x="90" y="30" width="150" height="150" rx="18" fill="url(#swatch2)" opacity="0.92" transform="rotate(6 165 105)"/>
+    <rect x="200" y="90" width="150" height="150" rx="18" fill="url(#swatch3)" opacity="0.9" transform="rotate(-4 275 165)"/>
+
+    <circle cx="60" cy="60" r="9" fill="#ffffff" opacity="0.7"/>
+    <circle cx="330" cy="60" r="6" fill="#ffffff" opacity="0.5"/>
+    <circle cx="370" cy="200" r="7" fill="#ffffff" opacity="0.6"/>
+  </g>
+
+  <g transform="translate(985,60)">
+    <path d="M0 26 L14 0 L28 26 L48 4 L48 46 L-8 46 L-8 4 Z" fill="url(#crownGrad)" stroke="#7C3AED" stroke-width="1.5"/>
+    <circle cx="14" cy="-6" r="3.5" fill="#FFD873"/>
+    <circle cx="-8" cy="8" r="2.5" fill="#FFD873"/>
+    <circle cx="48" cy="8" r="2.5" fill="#FFD873"/>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M780 250 l6 -14 l6 14 l14 6 l-14 6 l-6 14 l-6 -14 l-14 -6 z" fill="#FBCFE8"/>
+    <path d="M1120 90 l4 -9 l4 9 l9 4 l-9 4 l-4 9 l-4 -9 l-9 -4 z" fill="#A5F3FC"/>
+  </g>
+
+  <text x="60" y="160" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" font-size="78" fill="url(#titleFade)">
+    <tspan x="60" textLength="700" lengthAdjust="spacingAndGlyphs">Canva Pro Full</tspan>
+  </text>
+  <text x="60" y="248" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" font-size="78" fill="url(#titleFade)">
+    <tspan x="60" textLength="780" lengthAdjust="spacingAndGlyphs">Version Download</tspan>
+  </text>
+
+  <text x="60" y="292" font-family="'Segoe UI', Arial, sans-serif" font-size="24" fill="#D9C9F5">
+    <tspan textLength="960" lengthAdjust="spacingAndGlyphs">Enables pluggable Canva Pro feature unlocking for the design ecosystem</tspan>
+  </text>
+
+  <rect x="60" y="308" width="120" height="4" rx="2" fill="url(#swatch1)"/>
+</svg>
